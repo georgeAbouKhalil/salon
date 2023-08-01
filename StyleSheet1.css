@@ -1,0 +1,450 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    background-image: url("./Assets/Images/logo.png");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: #fff!important;
+}
+.navbar-brand img{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+}
+nav .fa-bars{
+    color:#fff !important;
+    font-size: 26px;
+}
+/*-------------welcome--------------*/
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+.welcome h1{
+    color: #333;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #000;
+    background-color: #E8D98B;
+    transition-delay: -1s;
+}
+
+.welcome .home-btn:hover{
+    color: #fff;
+    background-color: #000;
+    
+}
+
+.welcome .btn:focus{
+    box-shadow: none;
+}
+
+/*-------------about us-------------------*/
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6{
+    padding: 20px 10px;
+}
+#about h3{
+    margin: 20px auto;
+}
+#about img{
+    border-radius: 2%;
+}
+#about iframe{
+    border-radius: 2%;
+}
+/*--------------services-----------------*/
+#services{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services .col-md-4{
+    padding: 20px;
+}
+#services .col-md-4 h4{
+    padding: 5px;
+}
+#services .col-md-4 img{
+    width: 180px;
+    height: 150px;
+    border-radius: 2%;
+}
+#services .col-md-4 p{
+    padding: 5px;
+    text-align: justify;
+}
+#services h1{
+    color: #504E4A
+    
+}
+#services .col-md-4 .social_media{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 95%;
+    height: 95%;
+    background: rgba(0, 0, 0,0.65);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(0);
+    transition: all 0.5s ease;
+}
+#services .col-md-4 .social_media .item{
+    margin: 0 10px;
+}
+#services .col-md-4 .social_media .item .fab{
+    color: #8c7ae6;
+    font: 20px;
+}
+#services .container .col-md-4 .social_media:hover .social_media{
+    transform:scale(1);
+}
+
+/*-------------features---------------*/
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://image.shutterstock.com/image-photo/interior-modern-hair-salon-600w-144022057.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#features .col-md-6{
+    padding: 20px;
+}
+.feature-box{
+    height: 120px;
+}
+.feature-box .feature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .fa{
+    padding-top: 13px;
+    font-size: 50px;
+}
+.feature-box .feature-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feature-box .feature-right h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feature-box .feature-right p{
+    padding-left: 15px;
+    text-align: left;
+}
+
+/*-------------testimonials--------------------------------*/
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials .col-md-4{
+    padding: 10px 30px;
+}
+#testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+.review{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    word-break: break-all;
+}
+.review .fa-twitter{
+    color: #013f7e;
+}
+#testimonials span{
+    color: #013f7e;
+    font-weight: 600;
+    font-size: 18px;
+}
+#testimonials h1{
+    margin-bottom: 20px;
+    color: #504E4A;
+}
+#testimonials p{
+    padding-bottom: 20px;
+
+}
+#testimonials .middle{
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+/*-----------subscribe---------------*/
+.subscribe{
+    padding: 50px 20px;
+    background-color: #504E4A;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    margin-bottom: -160px;
+}
+.subscribe h3, .subscribe p{
+    color: #fff;
+}
+.subscribe .input-group{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.subscribe .form-control{
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append{
+    background-image: linear-gradient(to right,#E8D98B,#E8D98B);
+    border-radius: 30px;
+}
+.subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: #000;
+}
+.subscribe .btn:focus{
+    box-shadow: none;
+}
+
+/*-------------footer----------------------*/
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #504E4A;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+#footer a{
+    font-size: 12px;
+    text-align: left;
+    color: #504E4A;
+    margin-top: 3%;
+}
+#footer .row .fas{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer .row .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color:#fff;
+    background: #504E4A;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.underLine{
+    width: 35%;
+    height: 5px;
+    background: #504E4A;
+    border-radius: 3px;
+    position: absolute;
+    top: 50px;
+    left: 3;
+    overflow: hidden;
+}
+.underLine span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving {
+    0%{
+        left: -10px;
+    }
+    100%{
+        left: 100px;
+    }
+    
+}
+
+#footer hr{
+    margin-top: 10px;
+}
+#footer .fa-heart{
+    color: red;
+    font-size: 17px;
+}
+#footer .copyright{
+    margin-bottom: -8px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+}
+.marq{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.marq img{
+    width: 120px;
+}
+@media screen and (max-width: 1200px) {
+    .marq{
+        width: 100%;
+    }
+}
+
+
+.a{
+    width: 250px;
+    border-radius: 31px;
+    margin-bottom: 10px;
+}
+
+.animBottom{
+    transition: transform 500ms;
+}
+
+.animBottom:hover{
+    transform: translateY(-0.75rem);
+}
+
+
+@media (max-width: 800px) {
+    .nomobile{
+        display: none !important;
+    }
+    #header {
+        height: 44vh !important
+    }
+    i.fas.fa-bars{
+        font-size: 48px;
+    }
+    .navbar-toggler{
+        padding: 2.25rem 2.75rem
+    }
+    .welcome {
+        padding: 20px 20px;
+        margin-top: -3rem;
+    }
+    #about h3, #about p, #services div{
+        text-align: center;
+    }
+    #about  {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    #services{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #services .col-md-4 p {
+        text-align: center;
+    }
+    #features{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .feature-box {
+        margin-bottom: 2rem;
+    }
+    #testimonials {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    #subscribe{
+        position: relative;
+        height: 30vh;
+    }
+    #footer{
+        padding: 0;
+    }
+    .a{
+        width: 100%;
+    }
+    .underLine {
+        left: 33%;
+        top: 4rem;
+    }
+    #footer h1{
+        text-align: center;
+        font-size: 23px;
+    }
+    #footer a {
+        font-size: 19px;
+        text-align: center;
+        color: #504E4A;
+        margin-top: 0%;
+    }
+    #footer p {
+        font-size: 19px;
+        text-align: center;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mobCenter{
+        text-align: center;
+    }
+    .wiMob{
+        width: 60%;
+    }
+    
+}
