@@ -1,3 +1,5 @@
-# Salon
-salon beauty . HTML,CSS,JAVASCRIPT.WOW.MIN.JS
+# salon/barbershop
+salon/barbershop page. 
+HTML,CSS,
+JAVASCRIPT, WOW
 A site of literature only FrontEnd
